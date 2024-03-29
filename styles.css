@@ -4,6 +4,7 @@
 
 .center {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -15,11 +16,19 @@
 }
 
 .square {
-    width: 30px;
-    height: 30px;
     border: 1px solid black;
 }
 
 .hover {
     background-color: gray;
+}
+
+.painted {
+    background-color: black;
+}
+
+.grid-size-input {
+    display: flex;
+    margin: 36px;
+    gap: 12px;
 }
