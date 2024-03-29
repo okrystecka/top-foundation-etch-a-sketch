@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 480px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.hover {
+    background-color: gray;
+}
